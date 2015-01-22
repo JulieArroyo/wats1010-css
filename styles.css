@@ -1,6 +1,58 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
+body {
+	background-image:url('images/hard-paper-texture.jpg');
+	font-family:Arial, Helvetica, sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family:"Arial Black",Gadget,sans-serif;
+}
+header.page-header{
+	border:solid 5px black;
+	background:pink;
+	padding: 1rem;
+}
+.page-header h1 {
+	margin-bottom: 0;
+}
+.page-header p{
+	margin-top:0;
+}
+.page-header small{
+	font-size:medium;
+}
+.poem {
+	line-height:35px;
+}
 
-h1 {
-    color: green;
+aside.more-info{
+	border:solid 5px black;
+	background:lightsalmon;
+	float:right;
+	border-radius:20px;
+}
+aside.more-info img {
+	width:150px;
+	height:auto;	
+}
+section#content{
+	border:solid 5px black;
+	background:rgba;
+}
+.poem{
+	list-style-type:none;
+	color:darkred;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.poem li{
+	font-size:large;
+	font-weight:900;
+}
+footer.page-footer{
+	border:solid 5px black;
+	background-color:lightsalmon;
+}
+footer #ul{
+		list-style-type:none;
+	display:inline;
 }
